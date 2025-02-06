@@ -2,15 +2,15 @@
 
 ## Overview
 
-This project is a minimal WebSocket-based chatbot built using Django and Django Channels. The goal was not to create a sophisticated chat program but rather to learn how to establish real-time communication using Django and WebSockets. This serves as a stepping stone for future projects requiring real-time interaction, such as implementing an AI opponent in a game.
+This project is a minimal WebSocket-based chatbot built using Django and Django Channels. The goal was not to create a sophisticated chat program but rather to learn how to establish real-time communication using Django and WebSockets. This serves as a stepping stone for future projects requiring real-time interaction, such as implementing an AI opponent in a game (future work).
 
 ## Features
 
-WebSocket Connection: Handles real-time bidirectional communication.
+``WebSocket Connection:`` Handles real-time bidirectional communication.
 
-Basic Chatbot Logic: Responds to predefined messages.
+``Basic Chatbot Logic:`` Responds to predefined messages.
 
-No Frontend Required: Interact with the chatbot using command-line WebSocket clients.
+``No Frontend Required:`` Interact with the chatbot using command-line WebSocket clients.
 
 ## Installation & Setup
 
@@ -20,8 +20,8 @@ Ensure you have Python 3.8+ installed.
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
-cd django-chatbot
+git clone https://github.com/zolfagharipour/ChatBot_Django
+cd ChatBot_Django
 ```
 ### 2. Set Up a Virtual Environment
 ```bash
