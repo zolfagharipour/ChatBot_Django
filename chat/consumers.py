@@ -19,8 +19,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
     def get_response(self, message):
         responses = {
-            "hello": "Hello! How can I help you?",
+            "hello": "Hello Stranger, I wish you are doing fine today.",
             "bye": "Goodbye! Have a nice day!",
-            "help": "My consciousness is so limited, i only can understand hello and bye :(",
+            "help": "My consciousness is very limited, I only can understand hello and bye :(",
         }
         return responses.get(message.lower(), "I don't understand that.")
