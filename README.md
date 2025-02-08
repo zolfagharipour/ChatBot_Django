@@ -6,11 +6,11 @@ This project is a minimal WebSocket-based chatbot built using Django and Django 
 
 ## Features
 
-``WebSocket Connection:`` Handles real-time bidirectional communication.
+**WebSocket Connection**: Handles real-time bidirectional communication.
 
-``Basic Chatbot Logic:`` Responds to predefined messages.
+**Basic Chatbot Logic**: Responds to predefined messages.
 
-``No Frontend Required:`` Interact with the chatbot using command-line WebSocket clients.
+**No Frontend Required**: Interact with the chatbot using command-line WebSocket clients.
 
 ## Installation & Setup
 
